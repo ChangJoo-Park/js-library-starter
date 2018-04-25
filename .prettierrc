@@ -1,0 +1,13 @@
+{
+  "extends": ["standard"],
+  "rules": {
+    "prettier/prettier": "error",
+    "space-before-function-paren": "off",
+    "standard/computed-property-even-spacing": "off",
+    "no-unexpected-multiline": "off",
+    "indent": "off",
+    "jsx-quotes": "off"
+  },
+  "plugins": ["prettier"],
+  "root": true
+}
