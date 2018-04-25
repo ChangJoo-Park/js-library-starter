@@ -2,7 +2,7 @@
 
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path')
-const env = require('yargs').argv.env // use --env with webpack 2
+const env = require('yargs').argv.env
 const pkg = require('./package.json')
 
 let libraryName = pkg.name
