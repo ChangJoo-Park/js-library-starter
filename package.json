@@ -4,6 +4,7 @@
   "description": "JavaScript library boilerplate",
   "main": "/lib/js-library-starter.js",
   "scripts": {
+    "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "dev": "webpack --progress --colors --watch --env dev --mode=development",
