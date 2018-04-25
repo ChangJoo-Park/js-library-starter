@@ -18,6 +18,12 @@ npm run test
 npm run test:watch
 ```
 
+If using Visual Studio Code, you can interactive testing with debugger.
+[Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) for vscode plugin here.
+
+![image](https://i.imgur.com/72z5Tq7.gif)
+
+
 ## Development
 
 ```
