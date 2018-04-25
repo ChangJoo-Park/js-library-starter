@@ -38,3 +38,12 @@ and..
 
 follow this [publish npm package guide](https://docs.npmjs.com/getting-started/publishing-npm-packages).
 
+
+## How to dive in?
+
+- Report an issue
+- Give me a Pull Request
+
+## Who is Maintainer
+
+- ChangJoo Park(pcjpcj2@gmail.com)
