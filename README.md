@@ -12,6 +12,8 @@ npm install
 
 js-library-start support REPL(Read Eval Print Loop). You can test library with interactive command-line interface.
 
+![Imgur](https://i.imgur.com/hCLezRc.gif)
+
 ```
 npm run repl
 
@@ -22,6 +24,7 @@ npm run repl
 edit `.replrc.js` for specific options.
 
 thanks, [local-repl](https://www.npmjs.com/package/local-repl)
+
 
 ## Testing
 
