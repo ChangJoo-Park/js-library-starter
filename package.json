@@ -8,9 +8,14 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "dev": "webpack --progress --colors --watch --env dev --mode=development",
-    "build": "webpack --env dev --mode=development && webpack --env build --mode=development && npm run test "
+    "build": "webpack --env dev --mode=development && webpack --env build --mode=development && npm run test ",
+    "repl": "local-repl"
   },
-  "keywords": ["js", "library", "webpack"],
+  "keywords": [
+    "js",
+    "library",
+    "webpack"
+  ],
   "author": "ChangJoo Park",
   "license": "MIT",
   "devDependencies": {
@@ -39,5 +44,8 @@
   },
   "jest": {
     "transform": {}
+  },
+  "dependencies": {
+    "local-repl": "^3.1.0"
   }
 }
