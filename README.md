@@ -8,6 +8,21 @@ cd js-library-starter
 npm install
 ```
 
+## REPL
+
+js-library-start support REPL(Read Eval Print Loop). You can test library with interactive command-line interface.
+
+```
+npm run repl
+
+> lib.sum(1,2)
+# Ctrl + D for Quit
+```
+
+edit `.replrc.js` for specific options.
+
+thanks, [local-repl](https://www.npmjs.com/package/local-repl)
+
 ## Testing
 
 ```
