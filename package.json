@@ -7,8 +7,8 @@
     "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "dev": "webpack --progress --colors --watch --env dev --mode=development",
-    "build": "webpack --env dev --mode=development && webpack --env build --mode=development && npm run test ",
+    "dev": "webpack --progress --colors --watch --env dev --mode development",
+    "build": "webpack --env dev --mode production && webpack --env build --mode production && npm run test ",
     "repl": "local-repl"
   },
   "keywords": [
