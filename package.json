@@ -1,6 +1,6 @@
 {
   "name": "js-library-starter",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "JavaScript library boilerplate",
   "main": "/lib/js-library-starter.js",
   "scripts": {
